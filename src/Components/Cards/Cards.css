@@ -25,6 +25,11 @@
 
 }
 
+.box1:hover{
+    background-color: rgba(239, 235, 235, 0.769);
+    transition: 1s;
+}
+
 .backgroud-first{
     display: flex;
     justify-content: center;

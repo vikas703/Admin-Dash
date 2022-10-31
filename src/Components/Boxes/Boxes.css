@@ -7,6 +7,8 @@
     justify-content: space-evenly;
 }
 
+
+
 /*------- Box 1 ------- */
 
 .Box1{
@@ -16,7 +18,10 @@
     background-color: white;
     border-radius: 8px;
 }
-
+.Box1:hover{
+    background-color: rgba(239, 235, 235, 0.769);
+    transition: 1s;
+}
 /*------- Box 2 ------- */
 
 
@@ -26,6 +31,11 @@
     height: 190px;
     background-color: white;
     border-radius: 8px;
+}
+
+.Box2:hover{
+    background-color: rgba(239, 235, 235, 0.769);
+    transition: 1s;
 }
 
 .Donut{
@@ -47,6 +57,11 @@
     border-radius: 8px;
     gap: 0.9rem;
     display: grid;
+}
+
+.Box3:hover{
+    background-color: rgba(239, 235, 235, 0.769);
+    transition: 1s;
 }
 
 .Inside1{

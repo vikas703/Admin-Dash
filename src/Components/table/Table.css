@@ -8,6 +8,10 @@
     border-radius: 8px;
         
 }
+.tables:hover{
+  background-color: rgba(239, 235, 235, 0.769);
+  transition: 1s;
+}
 
 .table1 {
     width: 15rem;
