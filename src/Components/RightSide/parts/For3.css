@@ -1,0 +1,197 @@
+.background{
+    display: grid;
+    justify-content: space-evenly;
+}
+
+
+
+.Img{
+    object-fit:cover;
+    width: 277px;
+    height: 100px;
+   
+    margin-top: -1.9rem;
+    border-radius: 8px;
+    
+
+}
+
+
+
+.Img1{
+    background-repeat: no-repeat;
+    
+    
+    width: 60px; 
+    height:49px;
+    border-radius: 50%;
+   
+}
+
+.ImgeBack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38%;
+    margin-top: -1rem;
+    width: 65px; 
+    height:54px;
+    border-radius: 50%;
+    background-color: rgb(198, 197, 197);
+}
+
+/*
+.ImgeBack{
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 65px; 
+    height:53px;
+    border-radius: 50%;
+    margin-top: 35px;
+    background-color: rgb(198, 197, 197);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+*/
+.text{
+   
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    
+    margin-bottom: 0;
+}
+
+.text h5{
+    margin-left: 12px;
+}
+
+/* -------- Earn ------- */
+
+.earnings{
+    margin-top: -10px;
+}
+
+.rest{
+    text-align: center;
+    line-height: 2rem;
+}
+
+.rest span{
+    background-color: rgba(186, 247, 202, 0.868);
+    color: rgb(20, 160, 78);
+    border-radius: 10px;
+}
+
+/* ------- recent ------ */
+
+
+.square{
+    margin-top: -10px;
+
+}
+
+.boxx{
+    margin-top: 10px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr auto;    
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+.boxxx{
+    text-align: center;
+    width: 4rem;
+    height: 3rem;
+    background-color: rgba(233, 229, 229, 0.483);
+    border-radius: 7px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    
+    
+    .Img{
+        object-fit:cover;
+        width: 300px;
+        height: 100px;
+       
+        margin-top: -6.4rem;
+        border-radius: 8px;
+        
+    
+    }
+    
+    
+    
+    .Img1{
+        background-repeat: no-repeat;
+        
+        
+        width: 60px; 
+        height:49px;
+        border-radius: 50%;
+       
+    }
+    
+    .ImgeBack{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 38%;
+        margin-top: -1rem;
+        width: 65px; 
+        height:54px;
+        border-radius: 50%;
+        background-color: rgb(198, 197, 197);
+    }
+  
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+    
+    
+    .Img{
+        object-fit:cover;
+        width: 300px;
+        height: 100px;
+       
+        margin-top: -3.2rem;
+        border-radius: 8px;
+        
+    
+    }
+    
+    
+    
+    .Img1{
+        background-repeat: no-repeat;
+        
+        
+        width: 60px; 
+        height:49px;
+        border-radius: 50%;
+       
+    }
+    
+    .ImgeBack{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 38%;
+        margin-top: -1rem;
+        width: 65px; 
+        height:54px;
+        border-radius: 50%;
+        background-color: rgb(198, 197, 197);
+    }
+  
+
+}

@@ -1,0 +1,64 @@
+.tables{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    width: 740px;
+    background-color: white;
+    margin-left: 0.5rem;
+    padding: 8px;
+    border-radius: 8px;
+        
+}
+
+.table1 {
+    width: 15rem;
+    height: 16rem;
+    display: flex;
+    
+    
+  }
+    
+  table {
+    width: 230px;
+    height: 100px;
+    font-size: small;
+   
+  }
+    
+  th {
+    border-bottom: 10px solid black;
+  }
+    
+  td {
+    border-bottom: 1px solid rgb(165, 165, 165);
+
+    text-align: center;
+  }
+
+
+.chart{
+    width: 30rem;
+    margin-right: 0.5rem;
+}
+
+
+@media screen and (max-width: 1200px) {
+        .tables{
+          margin-top: -10rem;
+          width: 430px;
+          overflow-x: scroll;
+        }
+        
+
+}
+
+@media screen and (max-width: 700px) {
+    
+  .tables{
+    margin-top: -6rem;
+    width: 300px;
+    margin-left: 2rem;
+    overflow-x: scroll;
+  }
+}
+
+

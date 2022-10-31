@@ -1,0 +1,81 @@
+.Cards{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.parent{
+
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.box1{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    background-color: white;
+    width: 15rem;
+    height: 4rem;
+    border-radius: 7px;
+
+}
+
+.backgroud-first{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgba(132, 196, 252, 0.765);
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8px;
+}
+.first1{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+.box2{
+    background-color: white;
+    padding: 20px 40px 20px 40px;
+}
+.box3{
+    background-color: white;
+    padding: 20px 40px 20px 40px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    
+    .parent{
+        margin-top: -10rem;
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    .parent{
+        margin-top: -30rem;
+        
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .box1{
+        
+        width: 19rem;
+        
+    
+    }
+}

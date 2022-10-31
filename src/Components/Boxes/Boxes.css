@@ -1,0 +1,171 @@
+.Boxes{
+    margin-left: 0.5rem;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    justify-content: space-evenly;
+}
+
+/*------- Box 1 ------- */
+
+.Box1{
+    padding: 4px;
+    width: 237px;
+    height: 190px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+/*------- Box 2 ------- */
+
+
+.Box2{
+    padding: 4px;
+    width: 237px;
+    height: 190px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.Donut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: -1rem;
+}
+
+
+/*------- Box 3 ------- */
+
+.Box3{
+    padding: 4px;
+    width: 237px;
+    height: 190px;
+    background-color: white;
+    border-radius: 8px;
+    gap: 0.9rem;
+    display: grid;
+}
+
+.Inside1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    
+}
+
+.NumBack{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.NumberSty{
+    background-color: rgba(25, 103, 186, 0.945);
+    color: white;
+    height: 2rem;
+    padding: 3px;
+    border-radius: 10px;
+    margin-top: 0.3rem;
+}
+
+.shirt{
+    margin-left: -30px;
+}
+
+.Month{
+    text-align: center;
+    background-color: rgba(223, 216, 216, 0.576);
+    padding: 2px;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .Boxes{
+        margin-left: 0.5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 2rem;
+        margin-top: -8rem;
+        overflow: scroll;
+    }
+    .Box1{
+        margin-left: 9.5rem;
+
+        padding: 4px;
+        width: 250px;
+        height: 200px;
+        background-color: white;
+        border-radius: 8px;
+    }
+    .LineChart{
+        width: 10px;
+    }
+    .Box2{
+        padding: 4px;
+        width: 250px;
+        height: 200px;
+        background-color: white;
+        border-radius: 8px;
+    }
+    .Box3{
+        margin-left: 10rem;
+
+        padding: 4px;
+        width: 250px;
+        height: 200px;
+        background-color: white;
+        border-radius: 8px;
+        gap: 0.9rem;
+        display: grid;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    .Boxes{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        grid-gap: 2rem;
+        margin-top: 2rem;
+        overflow: scroll;
+        margin-left: 2rem;
+
+    }
+    .Box1{
+        margin-left: 0.1rem;
+
+        padding: 4px;
+        width: 300px;
+        height: 200px;
+        background-color: white;
+        border-radius: 8px;
+    }
+    .LineChart{
+        width: 10px;
+    }
+    .Box2{
+        padding: 4px;
+        width: 300px;
+        height: 200px;
+        background-color: white;
+        border-radius: 8px;
+    }
+    .Box3{
+        margin-left: 0.1rem;
+
+        padding: 4px;
+        width: 300px;
+        height: 200px;
+        background-color: white;
+        border-radius: 8px;
+        gap: 0.9rem;
+        display: grid;
+    }
+  }
