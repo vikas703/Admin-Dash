@@ -56,7 +56,7 @@
   .tables{
     margin-top: -6rem;
     width: 300px;
-    margin-left: 2rem;
+    
     overflow-x: scroll;
   }
 }
