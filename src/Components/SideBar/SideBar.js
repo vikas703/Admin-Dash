@@ -7,7 +7,7 @@ import {AiOutlineMenuFold} from 'react-icons/ai';
 
 
 const SideBar = () => {
-  const [ menu , setMenu] = useState(false);
+  const [ menu , setMenu] = useState(true);
   return (
     <div>
     <div className='Menu' onClick={e => setMenu(!menu)}>
